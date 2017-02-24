@@ -1,0 +1,28 @@
+{
+  "name": "generator-plain-c-project",
+  "version": "0.1.0",
+  "description": "Yeoman generator for GNU autotools C Project",
+  "files": [
+    "app"
+  ],
+  "keywords": ["yeoman-generator", "c", "automake", "autoconf", "plain c"],
+  "dependencies": {
+    "chalk": "*",
+    "underscore.string": "*",
+    "yeoman-generator": "^0.20.2"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "il buono"
+  },
+  "contributors": [
+        {
+          "name": "il buono"
+        }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelskieglazki/generator-plain-c-project.git"
+  },
+  "main": "app/index.js"
+}
