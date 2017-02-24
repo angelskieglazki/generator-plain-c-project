@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "dfym_base.h"
+#include "cplain.h"
 
 int main() {
   printf("Welcome to DFYM\n");
