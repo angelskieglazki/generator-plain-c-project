@@ -1,0 +1,1 @@
+# generator-plain-c-project
