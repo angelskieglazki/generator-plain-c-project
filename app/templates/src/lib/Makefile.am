@@ -6,9 +6,9 @@ endif
 
 
 # The libraries to build
-noinst_LIBRARIES = libcplain.a
+noinst_LIBRARIES = libexample.a
 
 # The files to add to the library and to the source distribution
-libcplain_a_SOURCES = \
-										     $(libcplain_a_HEADERS) \
-										     cplain.c
+lib_a_SOURCES = \
+										     $(lib_a_HEADERS) \
+										     lib_example.c

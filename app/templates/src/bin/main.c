@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "cplain.h"
+#include "lib_example.h"
 
 int main() {
-  printf("Welcome to DFYM\n");
+  printf("Welcome to Example\n");
   return dfym_fun();
 }
 

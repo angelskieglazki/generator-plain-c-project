@@ -7,9 +7,9 @@ endif
 #AM_CFLAGS += $(GLIB_CFLAGS)
 #AM_CFLAGS += $(SQLITE3_CFLAGS)
 
-bin_PROGRAMS = <%= name %>
-cplain_SOURCES = main.c
+bin_PROGRAMS = lib_example
+lib_example_SOURCES = main.c
 
-cplain_LDADD = $(top_builddir)/src/lib/libcplain.a $(AM_LDFLAGS)
+lib_example_LDADD = $(top_builddir)/src/lib/libexample.a $(AM_LDFLAGS)
 #dfym_LDADD += $(GLIB_LIBS)
 #dfym_LDADD += $(SQLITE3_LIBS)
