@@ -10,6 +10,6 @@ endif
 bin_PROGRAMS = lib_example
 lib_example_SOURCES = main.c
 
-lib_example_LDADD = $(top_builddir)/src/lib/libexample.a $(AM_LDFLAGS)
+lib_example_LDADD = $(top_builddir)/src/lib/lib_example.a $(AM_LDFLAGS)
 #dfym_LDADD += $(GLIB_LIBS)
 #dfym_LDADD += $(SQLITE3_LIBS)

@@ -6,7 +6,7 @@ endif
 
 
 # The libraries to build
-noinst_LIBRARIES = libexample.a
+noinst_LIBRARIES = lib_example.a
 
 # The files to add to the library and to the source distribution
 lib_a_SOURCES = \
