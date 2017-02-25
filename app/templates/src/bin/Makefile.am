@@ -7,7 +7,7 @@ endif
 #AM_CFLAGS += $(GLIB_CFLAGS)
 #AM_CFLAGS += $(SQLITE3_CFLAGS)
 
-bin_PROGRAMS = cplain
+bin_PROGRAMS = <%= name %>
 cplain_SOURCES = main.c
 
 cplain_LDADD = $(top_builddir)/src/lib/libcplain.a $(AM_LDFLAGS)

@@ -1,5 +1,6 @@
 AC_PREREQ([2.69])
-AC_INIT([cplain], [0.1], [ilbuono@ilbuono.com])
+AC_INIT([<%= name %>], [<%= version %>], [<%= email %>])
+AC_DEFINE([PACKAGE_DESCRIPTION], ["<%= description %> application"], [Application description])
 AC_CONFIG_SRCDIR([src/bin/main.c])
 AM_INIT_AUTOMAKE
 PKG_PROG_PKG_CONFIG
@@ -24,6 +25,27 @@ AC_CHECK_HEADERS([stdio.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_TYPE_SIZE_T
+
+# ***************************************************************************
+# Documentation
+# ***************************************************************************
+# Checks for doxygen
+#AC_CHECK_PROG(HAVE_DOXYGEN, doxygen, true, false)
+#AM_CONDITIONAL(HAVE_DOXYGEN, $HAVE_DOXYGEN)
+#if test $HAVE_DOXYGEN = "false"; then
+#    AC_MSG_WARN([*** doxygen not found, docs will not be built])
+#else
+#DX_HTML_FEATURE(OFF)
+#DX_CHM_FEATURE(OFF)
+#DX_CHI_FEATURE(OFF)
+#DX_MAN_FEATURE(OFF)
+#DX_RTF_FEATURE(OFF)
+#DX_XML_FEATURE(OFF)
+#DX_PDF_FEATURE(OFF)
+#DX_PS_FEATURE(OFF)
+#DX_INIT_DOXYGEN([<%= name %>], Doxyfile, docs)
+#            
+#fi
 
 # Add debug support
 AC_ARG_ENABLE(debug,
