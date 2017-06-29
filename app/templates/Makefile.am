@@ -1,3 +1,1 @@
-SUBDIRS = \
-					src/lib \
-          src/bin
+SUBDIRS = my_inc src

@@ -67,6 +67,6 @@ AM_COND_IF(DEBUG,
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 src/lib/Makefile
-                 src/bin/Makefile])
+                 my_inc/Makefile
+                 src/Makefile])
 AC_OUTPUT
