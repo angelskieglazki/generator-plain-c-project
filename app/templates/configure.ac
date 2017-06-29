@@ -1,7 +1,7 @@
 AC_PREREQ([2.69])
 AC_INIT([<%= name %>], [<%= version %>], [<%= email %>])
 AC_DEFINE([PACKAGE_DESCRIPTION], ["<%= description %> application"], [Application description])
-AC_CONFIG_SRCDIR([src/bin/main.c])
+AC_CONFIG_SRCDIR([src/main.c])
 AM_INIT_AUTOMAKE
 PKG_PROG_PKG_CONFIG
 
