@@ -15,7 +15,7 @@ libhelper_a_SOURCES = helper.c
 
 # noinst_ : assures that this library is not installed to the user's computer
 # libBLAH.a is a Unix convention. If you noticed, we replaced the . with _ in SOURCES line.
-<%= generatorModuleNameWithUnderscores %>_LDADD = libhelper.a ../my_inc/libmyadd.a
+<%= name %>_LDADD = libhelper.a ../my_inc/libmyadd.a
 
 # LDADD specifies which libraries to compile into "<%= generatorModuleNameWithUnderscores %>". We have two libraries.
 # libhelper comes from this directory and libmyadd come from my_inc directory.
